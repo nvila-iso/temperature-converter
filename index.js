@@ -9,15 +9,15 @@ const describeTemperature = (fahrenheit) => {
   let description = `${fahrenheit} fahrenheit is ${celsius} celsius. Expect it to be `;
 
   if (celsius < 0) {
-    return (description += `very cold.`);
+    return (description += `very cold. 🥶`);
   } else if (celsius < 20) {
-    return (description += `cold.`);
+    return (description += `cold. 🤧`);
   } else if (celsius < 30) {
-    return (description += `warm.`);
+    return (description += `warm. 🛀`);
   } else if (celsius < 40) {
-    return (description += `hot.`);
+    return (description += `hot. 🌶️`);
   } else if (celsius >= 40) {
-    return (description += `very hot.`);
+    return (description += `very hot. 🥵`);
   }
 };
 
